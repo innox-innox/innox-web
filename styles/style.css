@@ -1,0 +1,149 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Secciones con fondo */
+#principal {
+    background-image: url('../images/fondoneon.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#servicios,
+#nosotros,
+#contacto {
+    background-size: cover;
+    width: 100%;
+}
+
+#servicios {
+    background-image: url('../images/fondo-texturadosin.png');
+}
+
+#nosotros {
+    background-image: url('../images/fondo-texturadosin.png');
+}
+
+#contacto {
+    background-image: url('../images/fondo-sin-lineas.png');
+}
+
+/* Navbar */
+.logo-navbar {
+    height: 70px;
+    /* transform: scale(1.5); <- mejor evitarlo */
+}
+
+.navbar {
+    padding: 0.3rem 0;
+}
+
+.navbar-scroll {
+    background-image: url('../images/fondo-texturadosin.png');
+    transition: background-color 0.9s ease;
+}
+
+.navbar-trasparente {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Mejor que opacity */
+}
+
+/* Footer */
+.fondo-footer {
+    background-image: url('../images/fondo-texturadosin.png');
+}
+
+.social-icons i {
+    color: #CCC;
+    margin-bottom: 80px;
+}
+
+/* Textos */
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: #159400;
+}
+
+.nav-link,
+.nav-link-footer {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+.nav-link {
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.nav-link-footer {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link-footer:hover {
+    color: #159400;
+}
+
+/* Carrusel */
+.banner {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #fff;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 1s 0.1s;
+}
+
+/* Sección Servicios */
+.servivios-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Sección Nosotros */
+.text-seccion-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.text-seccion {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+/* WhatsApp */
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 13px;
+}
+
+/* Botones */
+.btn-secondary {
+    background-color: #159400;
+}
